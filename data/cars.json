@@ -1,0 +1,142 @@
+[
+    {
+        "model": "SUV",
+        "nome": "Toyota RAV4",
+        "marca": "Toyota",
+        "valor": 329390,
+        "imagem": "/images/rav4.png"
+    },
+    {
+        "model": "SUV",
+        "nome": "Honda CR-V",
+        "marca": "Honda",
+        "valor": 284561,
+        "imagem": "/images/crv.jpg"
+    },
+    {
+        "model": "SUV",
+        "nome": "Ford Escape",
+        "marca": "Ford",
+        "valor": 270000,
+        "imagem": "/images/escape.jpg"
+    },
+    {
+        "model": "SUV",
+        "nome": "Jeep Grand Cherokee",
+        "marca": "Jeep",
+        "valor": 499990,
+        "imagem": "/images/cherokee.jpg"
+    },
+    {
+        "model": "SUV",
+        "nome": "Subaru Outback",
+        "marca": "Subaru",
+        "valor": 228073,
+        "imagem": "/images/outback.jpg"
+    },
+    {
+        "model": "SUV",
+        "nome": "Hyundai Tucson",
+        "marca": "Hyundai",
+        "valor": 229990,
+        "imagem": "/images/tucson.jpg"
+    },
+    {
+        "model": "SUV",
+        "nome": "Chevrolet Equinox",
+        "marca": "Chevrolet",
+        "valor": 210890,
+        "imagem": "/images/equinox.jpg"
+    },
+    {
+        "model": "SUV",
+        "nome": "Nissan Rogue",
+        "marca": "Nissan",
+        "valor": 222112,
+        "imagem": "/images/roque.jpg"
+    },
+    {
+        "model": "SUV",
+        "nome": "Kia Sportage",
+        "marca": "Kia",
+        "valor": 196290,
+        "imagem": "/images/sportage.jpg"
+    },
+    {
+        "model": "SUV",
+        "nome": "Mazda CX-5",
+        "marca": "Mazda",
+        "valor": 50133,
+        "imagem": "/images/cx5.jpg"
+    },
+    {
+        "model": "POPULARES",
+        "nome": "Toyota Corolla",
+        "marca": "Toyota",
+        "valor": 148990,
+        "imagem": "/images/corolla.jpg"
+    },
+    {
+        "model": "POPULARES",
+        "nome": "Honda Civic",
+        "marca": "Honda",
+        "valor": 244900,
+        "imagem": "/images/civic.jpg"
+    },
+    {
+        "model": "POPULARES",
+        "nome": "Volkswagen Polo",
+        "marca": "Volkswagen",
+        "valor": 78990,
+        "imagem": "/images/polo.jpg"
+    },
+    {
+        "model": "POPULARES",
+        "nome": "Volkswagen Golf",
+        "marca": "Volkswagen",
+        "valor": 142038,
+        "imagem": "/images/golf.jpg"
+    },
+    {
+        "model": "POPULARES",
+        "nome": "Citroen C4",
+        "marca": "Citroen",
+        "valor": 65701,
+        "imagem": "/images/c4.jpg"
+    },
+    {
+        "model": "POPULARES",
+        "nome": "Carro de mãe",
+        "marca": "Renault",
+        "valor": 65000,
+        "imagem": "/images/sanderors.jpg"
+    },
+    {
+        "model": "POPULARES",
+        "nome": "Jeep Renegade",
+        "marca": "Jeep",
+        "valor": 80912,
+        "imagem": "/images/renegade.jpg"
+    },
+    {
+        "model": "POPULARES",
+        "nome": "Peugeot 208",
+        "marca": "Peugeot",
+        "valor": 27610,
+        "imagem": "/images/208.jpg"
+    },
+    {
+        "model": "POPULARES",
+        "nome": "Volkswagen Gol",
+        "marca": "Volkswagen",
+        "valor": 12305,
+        "imagem": "/images/gol.jpg"
+    },
+    {
+        "model": "POPULARES",
+        "nome": "Citroen C3",
+        "marca": "Citroen",
+        "valor": 43120,
+        "imagem": "/images/c3.jpg"
+    }
+]

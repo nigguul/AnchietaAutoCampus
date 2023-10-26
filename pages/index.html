@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/principal.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Anchieta Auto Campus</title>
+</head>
+
+<body>
+    <script type="text/javascript" src="./script/checkCookie.js"></script>
+    <div class="notifierBox" id="notifier-box">
+    </div>
+    <div class="container">
+        <div class="header">
+            <div class="imgStyle">
+                <img src="./images/logo.png" alt="logo">
+                <span></span>
+                <h1>Anchieta Auto Campus</h1>
+            </div>
+            <div class="navigator">
+                <ul>
+                    <li>
+                        <a href="/">
+                            <div class="buttonNavigator">
+                                <img src="./images/home.svg" alt="home">
+                                <h1>Home</h1>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/suvs">
+                            <div class="buttonNavigator">
+                                <img src="./images/car2.svg" alt="home">
+                                <h1>SUVs</h1>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/populares">
+                            <div class="buttonNavigator">
+                                <img src="./images/car.svg" alt="home">
+                                <h1>Populares</h1>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/esportivos">
+                            <div class="buttonNavigator">
+                                <img src="./images/car.svg" alt="home">
+                                <h1>Esportivo</h1>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            <div class="buttonNavigator">
+                                <img src="./images/contato.svg" alt="home">
+                                <h1>Contato</h1>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="infoUser">
+                <img src="./images/user.svg" alt="user">
+                <h1 id="nomeUser"></h1>
+                <span></span>
+                <img src="./images/logout.svg" alt="logout" onclick="logout()">
+            </div>
+        </div>
+        <div class="content">
+            <div class="about">
+                <h1>O Anchieta Auto Campus é o seu destino definitivo para SUVs, carros polulares e esportivos de alta qualidade. Com décadas de experiência e conhecimento no setor automotivo, nossa empresa é apaixonada por fornecer veículos excepcionais para entusiastas automotivos em todo o mundo.</h1>
+            </div>
+
+            <div class="boxEspecialidades">
+                <div class="orientationLeft">
+                    <div class="propsImage">
+                        <img src="../images/ram.png">
+                    </div>
+                    <div class="propsEspecialidades">
+                        <h1>SUVs</h1>
+                        <h2>Os SUVs oferecem versatilidade incomparável. Com amplo espaço interno, assentos elevados e capacidade de tração nas quatro rodas, eles são ideais para famílias, viagens longas e aventuras ao ar livre. Além disso, a sensação de segurança proporcionada por sua altura e robustez é inigualável. Os SUVs são a escolha perfeita para quem procura espaço, conforto e confiabilidade.</h2>
+                        <button onclick="redirectFor('/suvs')">Explorar mais</button>
+                    </div>
+                </div>
+                <div class="orientationRight">
+                    <div class="propsImage">
+                        <img src="../images/polo.jpg">
+                    </div>
+                    <div class="propsEspecialidades">
+                        <h1>Populares</h1>
+                        <h2>Os carros populares são conhecidos por sua acessibilidade e economia. São veículos que atendem às necessidades básicas de locomoção, sendo ideais para deslocamentos diários e uso urbano. Além disso, esses carros frequentemente oferecem baixos custos de manutenção e consumo eficiente de combustível. São uma escolha inteligente para quem busca um meio de transporte confiável e econômico.</h2>
+                        <button onclick="redirectFor('/populares')">Explorar mais</button>
+                    </div>
+                </div>
+                <div class="orientationLeft">
+                    <div class="propsImage">
+                        <img src="../images/mclaren.jpg">
+                    </div>
+                    <div class="propsEspecialidades">
+                        <h1>Esportivo</h1>
+                        <h2>Carros esportivos são a personificação da emoção e do desempenho. Com motores potentes, design arrojado e dirigibilidade esportiva, eles proporcionam uma experiência de condução emocionante. Além disso, os carros esportivos são frequentemente equipados com tecnologia avançada, sistemas de segurança e conforto de alto nível. São ideais para entusiastas automotivos que valorizam a potência, a velocidade e a elegância na estrada.</h2>
+                        <button onclick="redirectFor('/esportivos')">Explorar mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

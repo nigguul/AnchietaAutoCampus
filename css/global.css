@@ -1,0 +1,39 @@
+body {
+    background-color: #F2F2F2;
+    overflow: hidden
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+  
+html, body, body > div:first-child, div#next, div#next > div, #root, .App, main {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 1360px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 1280px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 1050px) {
+    html {
+        font-size: 65%;
+    }
+}
+
+@media (max-width: 435px) {
+    html {
+        font-size: 40%;
+    }
+}

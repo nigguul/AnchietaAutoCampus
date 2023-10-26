@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../css/global.css">
+        <link rel="stylesheet" href="../../css/login.css">
+        <link rel="stylesheet" href="../../css/notification.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <title>Anchieta Auto Campus</title>
+    </head>
+<body>
+    <script type="text/javascript" src="../../script/login.js"></script>
+    <div class="notifierBox" id="notifier-box">
+    </div>
+    <div class="container">
+        <div class="image">
+            <img src="../../images/login.jpg">
+        </div>
+        <div class="content">
+            <div class="headerLogin">
+                <img src="../../images/logo.png" alt="logo">
+                <h1>Anchieta Auto Campus</h1>
+                <p>A maior loja de automoveís</p>
+            </div>
+            <div class="boxPasswd">
+                <h1>Criar usuário</h1>
+                <div class="boxInputData">
+                    <h1>Nome</h1>
+                    <div class="inputData">
+                        <img src="../../images/userlogin.svg" alt="nome">
+                        <input type="text" id="nome">
+                    </div>
+                    <h1>E-mail</h1>
+                    <div class="inputData">
+                        <img src="../../images/userlogin.svg" alt="email">
+                        <input type="email" id="email">
+                    </div>
+                    <h1>Endereço</h1>
+                    <div class="inputData">
+                        <img src="../../images/address.svg" alt="address">
+                        <input type="text" id="address">
+                    </div>
+                    <h1>Senha</h1>
+                    <div class="inputData">
+                        <img src="../../images/passwd.svg" alt="passwd">
+                        <input type="password" id="passwd">
+                    </div>
+                </div>
+            </div>
+            <div class="erro">
+                <p class="pErro"></p>
+            </div>
+            <div class="buttonLogin" onclick="CreateUser()">
+                <span>Criar</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

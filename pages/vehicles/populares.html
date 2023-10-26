@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../css/global.css">
+        <link rel="stylesheet" href="../../css/notification.css">
+        <link rel="stylesheet" href="../../css/principal.css">
+        <link rel="stylesheet" href="../../css/cars.css">
+        <title>Anchieta Auto Campus</title>
+    </head>
+<body>
+    <script type="text/javascript" src="../../script/getPopulares.js"></script>
+    <div class="container">
+        <div class="header">
+            <div class="imgStyle">
+                <img src="./images/logo.png" alt="logo">
+                <span></span>
+                <h1>Anchieta Auto Campus</h1>
+            </div>
+            <div class="navigator">
+                <ul>
+                    <li>
+                        <a href="/">
+                            <div class="buttonNavigator">
+                                <img src="./images/home.svg" alt="home">
+                                <h1>Home</h1>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/suvs">
+                            <div class="buttonNavigator">
+                                <img src="./images/car2.svg" alt="home">
+                                <h1>SUVs</h1>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/populares">
+                            <div class="buttonNavigator">
+                                <img src="./images/car.svg" alt="home">
+                                <h1>Populares</h1>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/esportivos">
+                            <div class="buttonNavigator">
+                                <img src="./images/car.svg" alt="home">
+                                <h1>Esportivo</h1>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            <div class="buttonNavigator">
+                                <img src="./images/contato.svg" alt="home">
+                                <h1>Contato</h1>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="infoUser">
+                <img src="./images/user.svg" alt="user">
+                <h1 id="nomeUser"></h1>
+                <span></span>
+                <img src="./images/logout.svg" alt="logout" onclick="logout()">
+            </div>
+        </div>
+        <div class="content">
+            <div class="carrosel" id="carrosel">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
